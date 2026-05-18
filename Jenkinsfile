@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: '<repo link>'
+                git branch: 'master', url: 'https://github.com/nayangchawhan/mvnt2'
             }
         }
 
